@@ -28,10 +28,10 @@ public class Book {
     public int getPageCount() {
         return pageCount;
     }
-
+    
     public String toString(String sampleBook){
 
-        return sampleBook+"(pageCount)";
+        return sampleBook+"("+pageCount+")";
     }
 }
 
